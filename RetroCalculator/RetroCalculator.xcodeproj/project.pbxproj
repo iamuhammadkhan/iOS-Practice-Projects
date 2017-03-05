@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5C06411E6C13C600273972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C06401E6C13C600273972 /* AppDelegate.swift */; };
+		4D5C06431E6C13C600273972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C06421E6C13C600273972 /* ViewController.swift */; };
+		4D5C06461E6C13C600273972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06441E6C13C600273972 /* Main.storyboard */; };
+		4D5C06481E6C13C600273972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06471E6C13C600273972 /* Assets.xcassets */; };
+		4D5C064B1E6C13C600273972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06491E6C13C600273972 /* LaunchScreen.storyboard */; };
+		4D5C06591E6C2B9E00273972 /* License.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06531E6C2B9E00273972 /* License.png */; };
+		4D5C065A1E6C2B9E00273972 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06541E6C2B9E00273972 /* License.txt */; };
+		4D5C065B1E6C2B9E00273972 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06551E6C2B9E00273972 /* Minecrafter.Alt.ttf */; };
+		4D5C065C1E6C2B9E00273972 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06561E6C2B9E00273972 /* Minecrafter.Reg.ttf */; };
+		4D5C065D1E6C2B9E00273972 /* Read Me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06571E6C2B9E00273972 /* Read Me.txt */; };
+		4D5C065E1E6C2B9E00273972 /* Sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C06581E6C2B9E00273972 /* Sample.png */; };
+		4D5C06601E6C2D6500273972 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C065F1E6C2D6500273972 /* btn.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D5C063D1E6C13C600273972 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5C06401E6C13C600273972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D5C06421E6C13C600273972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D5C06451E6C13C600273972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D5C06471E6C13C600273972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5C064A1E6C13C600273972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5C064C1E6C13C600273972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5C06531E6C2B9E00273972 /* License.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = License.png; sourceTree = "<group>"; };
+		4D5C06541E6C2B9E00273972 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		4D5C06551E6C2B9E00273972 /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
+		4D5C06561E6C2B9E00273972 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		4D5C06571E6C2B9E00273972 /* Read Me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read Me.txt"; sourceTree = "<group>"; };
+		4D5C06581E6C2B9E00273972 /* Sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sample.png; sourceTree = "<group>"; };
+		4D5C065F1E6C2D6500273972 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5C063A1E6C13C600273972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5C06341E6C13C600273972 = {
+			isa = PBXGroup;
+			children = (
+				4D5C063F1E6C13C600273972 /* RetroCalculator */,
+				4D5C063E1E6C13C600273972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5C063E1E6C13C600273972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C063D1E6C13C600273972 /* RetroCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5C063F1E6C13C600273972 /* RetroCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C065F1E6C2D6500273972 /* btn.wav */,
+				4D5C06521E6C2B9E00273972 /* minecrafter */,
+				4D5C06401E6C13C600273972 /* AppDelegate.swift */,
+				4D5C06421E6C13C600273972 /* ViewController.swift */,
+				4D5C06441E6C13C600273972 /* Main.storyboard */,
+				4D5C06471E6C13C600273972 /* Assets.xcassets */,
+				4D5C06491E6C13C600273972 /* LaunchScreen.storyboard */,
+				4D5C064C1E6C13C600273972 /* Info.plist */,
+			);
+			path = RetroCalculator;
+			sourceTree = "<group>";
+		};
+		4D5C06521E6C2B9E00273972 /* minecrafter */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C06531E6C2B9E00273972 /* License.png */,
+				4D5C06541E6C2B9E00273972 /* License.txt */,
+				4D5C06551E6C2B9E00273972 /* Minecrafter.Alt.ttf */,
+				4D5C06561E6C2B9E00273972 /* Minecrafter.Reg.ttf */,
+				4D5C06571E6C2B9E00273972 /* Read Me.txt */,
+				4D5C06581E6C2B9E00273972 /* Sample.png */,
+			);
+			path = minecrafter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5C063C1E6C13C600273972 /* RetroCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5C064F1E6C13C600273972 /* Build configuration list for PBXNativeTarget "RetroCalculator" */;
+			buildPhases = (
+				4D5C06391E6C13C600273972 /* Sources */,
+				4D5C063A1E6C13C600273972 /* Frameworks */,
+				4D5C063B1E6C13C600273972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroCalculator;
+			productName = RetroCalculator;
+			productReference = 4D5C063D1E6C13C600273972 /* RetroCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5C06351E6C13C600273972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ab Bachao (Pvt) Ltd";
+				TargetAttributes = {
+					4D5C063C1E6C13C600273972 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BFW29W59H3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D5C06381E6C13C600273972 /* Build configuration list for PBXProject "RetroCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5C06341E6C13C600273972;
+			productRefGroup = 4D5C063E1E6C13C600273972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5C063C1E6C13C600273972 /* RetroCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5C063B1E6C13C600273972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C065E1E6C2B9E00273972 /* Sample.png in Resources */,
+				4D5C065B1E6C2B9E00273972 /* Minecrafter.Alt.ttf in Resources */,
+				4D5C064B1E6C13C600273972 /* LaunchScreen.storyboard in Resources */,
+				4D5C065A1E6C2B9E00273972 /* License.txt in Resources */,
+				4D5C06591E6C2B9E00273972 /* License.png in Resources */,
+				4D5C06601E6C2D6500273972 /* btn.wav in Resources */,
+				4D5C06481E6C13C600273972 /* Assets.xcassets in Resources */,
+				4D5C065C1E6C2B9E00273972 /* Minecrafter.Reg.ttf in Resources */,
+				4D5C06461E6C13C600273972 /* Main.storyboard in Resources */,
+				4D5C065D1E6C2B9E00273972 /* Read Me.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5C06391E6C13C600273972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C06431E6C13C600273972 /* ViewController.swift in Sources */,
+				4D5C06411E6C13C600273972 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D5C06441E6C13C600273972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5C06451E6C13C600273972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D5C06491E6C13C600273972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5C064A1E6C13C600273972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5C064D1E6C13C600273972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5C064E1E6C13C600273972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5C06501E6C13C600273972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BFW29W59H3;
+				INFOPLIST_FILE = RetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pk.abbachao.RetroCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D5C06511E6C13C600273972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BFW29W59H3;
+				INFOPLIST_FILE = RetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pk.abbachao.RetroCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5C06381E6C13C600273972 /* Build configuration list for PBXProject "RetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5C064D1E6C13C600273972 /* Debug */,
+				4D5C064E1E6C13C600273972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5C064F1E6C13C600273972 /* Build configuration list for PBXNativeTarget "RetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5C06501E6C13C600273972 /* Debug */,
+				4D5C06511E6C13C600273972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5C06351E6C13C600273972 /* Project object */;
+}
