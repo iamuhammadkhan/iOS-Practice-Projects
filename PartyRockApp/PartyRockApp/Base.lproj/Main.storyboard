@@ -71,7 +71,7 @@
                                 <rect key="frame" x="0.0" y="211" width="320" height="357"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="84" id="7cz-wO-3Xa" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="84" id="7cz-wO-3Xa" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="84"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7cz-wO-3Xa" id="fDI-m8-cOp">
@@ -90,7 +90,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="67" id="ht5-Ty-7r9"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="40"/>
+                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -123,6 +123,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="Di2-AL-kEH" id="0FH-Ls-jjH"/>
                         <segue destination="udU-5N-olQ" kind="showDetail" identifier="VideoVC" id="GP9-oF-W0y"/>
                     </connections>
                 </viewController>
@@ -149,14 +150,30 @@
                                     <constraint firstAttribute="height" constant="183" id="qNx-k6-6fr"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yr-bI-bJE">
+                                <rect key="frame" x="20" y="295" width="284" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="sGD-j9-vNt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8yr-bI-bJE" secondAttribute="trailing" constant="16" id="3QR-UW-n9z"/>
+                            <constraint firstItem="8yr-bI-bJE" firstAttribute="leading" secondItem="S7l-fm-Rt2" secondAttribute="leading" constant="20" id="5op-cF-FQM"/>
                             <constraint firstAttribute="trailing" secondItem="7C2-1i-Sx8" secondAttribute="trailing" id="Pj4-Cr-zPp"/>
                             <constraint firstItem="7C2-1i-Sx8" firstAttribute="top" secondItem="zGe-nZ-19O" secondAttribute="bottom" constant="8" id="aP5-H5-Xti"/>
                             <constraint firstItem="7C2-1i-Sx8" firstAttribute="leading" secondItem="S7l-fm-Rt2" secondAttribute="leading" id="bA1-Hw-09q"/>
+                            <constraint firstItem="8yr-bI-bJE" firstAttribute="top" secondItem="7C2-1i-Sx8" secondAttribute="bottom" constant="84" id="vPJ-ja-duY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="8yr-bI-bJE" id="AND-QM-jlD"/>
+                        <outlet property="webView" destination="7C2-1i-Sx8" id="cBr-wj-jxl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHA-rM-K5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
