@@ -20,7 +20,6 @@ extension Image {
     @NSManaged public var image: NSObject?
     @NSManaged public var toItem: Item?
     @NSManaged public var toStore: NSSet?
-
 }
 
 // MARK: Generated accessors for toStore
