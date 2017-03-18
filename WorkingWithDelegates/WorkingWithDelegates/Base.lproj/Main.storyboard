@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ReceivingVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ReceivingVC" customModule="WorkingWithDelegates" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="51x-G7-sXZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="kJ0-Tc-oTQ"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Receiver" id="Pkf-AY-1zY">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8cN-te-9XB">
+                                            <connections>
+                                                <segue destination="f1e-TW-Iap" kind="show" identifier="receiveData" id="vrv-DS-8Pr"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the '+' button to add the text and send through delegates" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvb-W3-6zG">
+                                <rect key="frame" x="16" y="44" width="288" height="504"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="51x-G7-sXZ" secondAttribute="trailing" id="0U5-eZ-0km"/>
+                            <constraint firstItem="51x-G7-sXZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2PE-1h-xWz"/>
+                            <constraint firstItem="51x-G7-sXZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Cdx-en-iZs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kvb-W3-6zG" secondAttribute="bottom" constant="20" id="d9s-jK-6HP"/>
+                            <constraint firstItem="Kvb-W3-6zG" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rvU-DU-C7Y"/>
+                            <constraint firstItem="Kvb-W3-6zG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wj0-IS-R4W"/>
+                            <constraint firstItem="Kvb-W3-6zG" firstAttribute="top" secondItem="51x-G7-sXZ" secondAttribute="bottom" id="yUB-yL-5gX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="138.38028169014083"/>
+        </scene>
+        <!--SendingVC-->
+        <scene sceneID="Uzx-Uy-RKR">
+            <objects>
+                <viewController id="f1e-TW-Iap" customClass="SendingVC" customModule="WorkingWithDelegates" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5qB-Iu-VKu"/>
+                        <viewControllerLayoutGuide type="bottom" id="1gQ-HJ-iNz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="09C-2s-Mh0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tap here to send the text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="juz-Gg-a5a">
+                                <rect key="frame" x="16" y="74" width="288" height="50"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Dk6-EQ-i28"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMt-Gj-czx">
+                                <rect key="frame" x="16" y="183" width="288" height="40"/>
+                                <color key="backgroundColor" red="0.31764705879999999" green="0.66666666669999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lcd-XY-ZOD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="SEND">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendBtn:" destination="f1e-TW-Iap" eventType="touchUpInside" id="n1g-UR-r2P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xMt-Gj-czx" firstAttribute="trailing" secondItem="09C-2s-Mh0" secondAttribute="trailingMargin" id="IF3-LJ-1ci"/>
+                            <constraint firstItem="xMt-Gj-czx" firstAttribute="top" secondItem="juz-Gg-a5a" secondAttribute="bottom" constant="59" id="SPg-H5-Fhm"/>
+                            <constraint firstItem="juz-Gg-a5a" firstAttribute="leading" secondItem="09C-2s-Mh0" secondAttribute="leadingMargin" id="TWg-1E-TjS"/>
+                            <constraint firstItem="xMt-Gj-czx" firstAttribute="leading" secondItem="09C-2s-Mh0" secondAttribute="leadingMargin" id="asr-CI-cL2"/>
+                            <constraint firstItem="juz-Gg-a5a" firstAttribute="trailing" secondItem="09C-2s-Mh0" secondAttribute="trailingMargin" id="gbD-hi-YF5"/>
+                            <constraint firstItem="juz-Gg-a5a" firstAttribute="top" secondItem="5qB-Iu-VKu" secondAttribute="bottom" constant="54" id="myc-PV-beo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="editText" destination="juz-Gg-a5a" id="4xA-EF-aRu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jnM-mh-R0L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.5" y="138.38028169014083"/>
+        </scene>
+    </scenes>
+</document>
