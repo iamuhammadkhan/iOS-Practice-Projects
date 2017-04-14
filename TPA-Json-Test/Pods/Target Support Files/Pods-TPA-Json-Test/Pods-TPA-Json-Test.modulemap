@@ -1,0 +1,6 @@
+framework module Pods_TPA_Json_Test {
+  umbrella header "Pods-TPA-Json-Test-umbrella.h"
+
+  export *
+  module * { export * }
+}
